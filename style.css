@@ -34,12 +34,14 @@ a:hover {
     padding-right: 5%;
 }
 
-/* kako da fiksiram footer na dnu stranice a da mi uvek bude vidljiv (makar i skrolovanjem do njega)? */
+/* fixiranje footer-a na dno stranice, tako da uvek bude vidljiv (makar i skrolovanjem do njega) */
 
 .Bottom_Footer {
     position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    background: #002699;
+    background-color: #002699;
     color: #ffff66;
     text-align: center;
     padding: 0%;
